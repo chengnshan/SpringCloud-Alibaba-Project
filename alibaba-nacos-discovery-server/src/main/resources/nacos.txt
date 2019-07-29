@@ -1,0 +1,27 @@
+    Nacos致力于帮助您发现、配置和管理微服务。Nacos提供了一组简单易用的特性集，帮助您快速实现动态服务发现、服务配置、服务元数据及流量管理。
+Nacos帮助您更敏捷和容易地构建、交付和管理微服务平台。Nacos是构建以“服务”为中心的现代应用架构 (例如微服务范式、云原生范式) 的服务基础设施。
+    下载地址：https://github.com/alibaba/nacos/releases
+    下载完成之后，解压。根据不同平台，执行不同命令，启动单机版Nacos服务：
+        Linux/Unix/Mac： sh startup.sh -m standalone
+        Windows：        cmd startup.cmd -m standalone
+    startup.sh脚本位于Nacos解压后的bin目录下。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
