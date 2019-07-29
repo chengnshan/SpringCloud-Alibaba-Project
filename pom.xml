@@ -8,6 +8,12 @@
     <artifactId>SpringCloud-Alibaba-Project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    
-    
+
+
+    <modules>
+        <module>alibaba-nacos-discovery-server</module>
+        <module>alibaba-nacos-discovery-client-common</module>
+    </modules>
+
+
   </project>
