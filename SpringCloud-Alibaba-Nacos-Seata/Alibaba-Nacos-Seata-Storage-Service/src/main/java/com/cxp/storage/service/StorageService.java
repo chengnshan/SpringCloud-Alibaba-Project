@@ -12,29 +12,14 @@ import javax.annotation.Resource;
 /**
  * @author cheng
  */
-@Service
-public class StorageService {
 
-    @Resource
-    private StorageDAO storageDAO;
+public interface StorageService {
 
     /**
-     * 减库存
+     * 减库存,,
      *
      * @param commodityCode
      * @param count
      */
-    @Transactional(rollbackFor = Exception.class)
-    public void deduct(String commodityCode, int count) {
-        if (commodityCode.equals("product-2")) {
-            throw new RuntimeException("异常:模拟业务异常:Storage branch exception");
-        }
-
-        QueryWrapper<Storage> wrapper = new QueryWrapper<>();
-        wrapper.setEntity(new Storage().setCommodityCode(commodityCode));
-        Storage storage = storageDAO.selectOne(wrapper);
-        storage.setCount(storage.getCount() - count);
-
-        storageDAO.updateById(storage);
-    }
+    public void deduct(String commodityCode, int count) ;
 }

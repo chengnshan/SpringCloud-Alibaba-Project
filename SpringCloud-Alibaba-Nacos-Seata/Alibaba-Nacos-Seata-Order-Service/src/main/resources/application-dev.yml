@@ -16,6 +16,6 @@ spring:
       driver-class-name: com.mysql.jdbc.Driver
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**/*.xml
-  type-aliases-package: com.cxp.business.pojo
+  type-aliases-package: com.cxp.order.pojo
 seata:
   tx-service-group: my_test_tx_group
