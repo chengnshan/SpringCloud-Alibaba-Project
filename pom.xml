@@ -15,6 +15,7 @@
         <module>springcloud-alibaba-nacos-discovery</module>
         <module>SpringCloud-Alibaba-Nacos-Seata</module>
         <module>SpringCloud-Alibaba-Sentinel</module>
+        <module>SpringCloud-Alibaba-Dubbo</module>
     </modules>
 
 
